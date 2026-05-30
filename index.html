@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- === SEO — Edita título y descripción aquí === -->
+  <title>Transportes MNM — Mudanzas Nacionales México | Servicio confiable de mudanzas</title>
+  <meta name="description" content="Transportes MNM: Mudanzas nacionales en México con cuidado, confianza y precio justo. Embalaje, carga, transporte y descarga. Cotiza por WhatsApp.">
+  <meta name="keywords" content="mudanzas, mudanzas nacionales, mudanzas México, transporte de muebles, embalaje, carga y descarga, Transportes MNM">
+  <meta name="author" content="Transportes MNM">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Transportes MNM — Mudanzas Nacionales México">
+  <meta property="og:description" content="Mudanzas nacionales con confianza, cuidado y precio justo. Cotiza por WhatsApp.">
+  <meta property="og:type" content="website">
+  <!-- === Cambia esta URL por la URL real del sitio === -->
+  <meta property="og:url" content="https://transportesmnm.com">
+  <meta property="og:image" content="img/logo-mnm-completo.jpg">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon — Logo simplificado MNM -->
+  <link rel="icon" type="image/png" href="img/favicon-mnm.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER / NAVEGACIÓN
+       ============================================================ -->
+  <header class="header" id="header">
+    <div class="container">
+      <!-- === LOGO — Logo completo con camión y mapa de México === -->
+      <a href="#inicio" class="header__logo" aria-label="Inicio">
+        <img src="img/logo-mnm-completo.jpg" alt="Logotipo Transportes MNM — Mudanzas Nacionales México" id="logo">
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+          <li><a href="#cobertura" class="nav__link">Rutas</a></li>
+          <li><a href="#maniobras" class="nav__link">Maniobras</a></li>
+          <li><a href="#galeria" class="nav__link">Galería</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+          <!-- === WHATSAPP — Cambia el número si es necesario === -->
+          <li>
+            <a href="https://wa.me/525565799972?text=Hola%2C%20quiero%20cotizar%20una%20mudanza%20con%20Transportes%20MNM." 
+               class="btn btn--primary nav__cta" target="_blank" rel="noopener" id="btn-header-wa">
+              <!-- Ícono WhatsApp -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Cotizar por WhatsApp
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Menú hamburguesa (móvil) -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Overlay móvil -->
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero__content fade-in-left">
+        <div class="hero__badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          Mudanzas Nacionales México
+        </div>
+
+        <h1 class="hero__title">
+          Mudanzas nacionales con <span>confianza</span>, cuidado y precio justo
+        </h1>
+
+        <p class="hero__subtitle">
+          En Transportes MNM cuidamos tus pertenencias como si fueran nuestras. Te ayudamos con embalaje, carga, transporte y descarga para que tu mudanza sea más sencilla y sin estrés.
+        </p>
+
+        <div class="hero__buttons">
+          <!-- === WHATSAPP — Enlace principal === -->
+          <a href="https://wa.me/525565799972?text=Hola%2C%20quiero%20cotizar%20una%20mudanza%20con%20Transportes%20MNM." 
+             class="btn btn--primary btn--large" target="_blank" rel="noopener" id="btn-hero-cotizar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Cotizar mi mudanza
+          </a>
+          <a href="#servicios" class="btn btn--secondary btn--large" id="btn-hero-servicios">
+            Ver servicios
+          </a>
+        </div>
+
+        <div class="hero__trust">
+          <div class="hero__trust-item">
+            <div class="hero__trust-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+              </svg>
+            </div>
+            Atención directa por WhatsApp
+          </div>
+          <div class="hero__trust-item">
+            <div class="hero__trust-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            Servicio honesto y confiable
+          </div>
+          <div class="hero__trust-item">
+            <div class="hero__trust-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+              </svg>
+            </div>
+            Mudanzas nacionales
+          </div>
+          <div class="hero__trust-item">
+            <div class="hero__trust-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+              </svg>
+            </div>
+            Cuidado en cada traslado
+          </div>
+        </div>
+      </div>
+
+      <!-- === HERO IMAGE — Camión sin fondo === -->
+      <div class="hero__image">
+        <img src="img/camion-sin-fondo.png" alt="Camión de mudanzas Transportes MNM" class="hero__truck scale-in-right" loading="eager">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SERVICIOS
+       ============================================================ -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="section__tag">Lo que hacemos por ti</span>
+        <h2 class="section__title">Servicios de mudanza</h2>
+        <p class="section__subtitle">Nos encargamos de todo el proceso para que tu mudanza sea lo más fácil y tranquila&nbsp;posible.</p>
+      </div>
+
+      <div class="servicios__grid">
+        <!-- Servicio 1 -->
+        <div class="servicio-card fade-in" id="servicio-embalaje">
+          <div class="servicio-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+              <line x1="12" y1="22.08" x2="12" y2="12"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Empaque y embalaje</h3>
+          <p class="servicio-card__text">Protegemos tus cosas con materiales adecuados para que lleguen en perfectas condiciones a su destino.</p>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="servicio-card fade-in" id="servicio-carga">
+          <div class="servicio-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="12 17 12 3"/>
+              <path d="M5 10l7-7 7 7"/>
+              <path d="M3 21h18"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Carga y descarga</h3>
+          <p class="servicio-card__text">Nuestro equipo se encarga de subir y bajar tus muebles y pertenencias con cuidado y experiencia.</p>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="servicio-card fade-in" id="servicio-transporte">
+          <div class="servicio-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="3" width="15" height="13"/>
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+              <circle cx="5.5" cy="18.5" r="2.5"/>
+              <circle cx="18.5" cy="18.5" r="2.5"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Seguro de Carga</h3>
+          <p class="servicio-card__text">Ofrecemos cobertura y protección para tus bienes durante todo el traslado. En caso de pérdida o daño atribuible al transportista, el valor declarado previamente por escrito puede ser indemnizado conforme a los términos pactados, brindándote mayor tranquilidad en tu mudanza.</p>
+        </div>
+
+
+        <!-- Servicio 4 -->
+        <div class="servicio-card fade-in" id="servicio-residencial">
+          <div class="servicio-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+              <polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Mudanzas residenciales y empresariales</h3>
+          <p class="servicio-card__text">Mudamos tu hogar completo —muebles, electrodomésticos y objetos personales— o trasladamos oficinas, equipos y mobiliario empresarial de forma organizada y sin interrumpir tu operación.</p>
+        </div>
+
+
+        <!-- Servicio 6 -->
+        <div class="servicio-card fade-in" id="servicio-apoyo">
+          <div class="servicio-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 00-3-3.87"/>
+              <path d="M16 3.13a4 4 0 010 7.75"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Mudanzas Ejecutivas</h3>
+          <p class="servicio-card__text">Servicio premium para clientes que requieren atención personalizada, puntualidad garantizada y máximo cuidado en cada detalle. Coordinamos toda la logística para que tu mudanza sea impecable desde el primer momento.</p>
+        </div>
+
+        <!-- Servicio 7 -->
+        <div class="servicio-card fade-in" id="servicio-vehiculos">
+          <div class="servicio-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="3" width="15" height="13"/>
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+              <circle cx="5.5" cy="18.5" r="2.5"/>
+              <circle cx="18.5" cy="18.5" r="2.5"/>
+              <path d="M8 3v4M12 3v4"/>
+            </svg>
+          </div>
+          <h3 class="servicio-card__title">Traslado de vehículos</h3>
+          <p class="servicio-card__text">Transportamos tu automóvil de forma segura a cualquier destino en la República Mexicana. Contamos con servicio de traslado de vehículos sin rodar en caja seca cerrada tipo mudancera, garantizando que tu auto llegue protegido del clima y cualquier daño durante el trayecto.</p>
+        </div>
+      </div>
+
+      <!-- Banner Condiciones del Servicio -->
+      <div class="fade-in" style="
+        margin-top: 48px;
+        background: linear-gradient(135deg, rgba(91,44,142,0.07) 0%, rgba(201,168,76,0.10) 100%);
+        border: 1.5px solid rgba(91,44,142,0.15);
+        border-radius: 16px;
+        padding: 24px 32px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      ">
+        <div style="
+          width: 48px; height: 48px; min-width: 48px;
+          background: linear-gradient(135deg, #5b2c8e, #7a3db8);
+          border-radius: 12px;
+          display: flex; align-items: center; justify-content: center;
+          box-shadow: 0 4px 12px rgba(91,44,142,0.25);
+        ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+          </svg>
+        </div>
+        <div style="flex: 1; min-width: 200px;">
+          <p style="margin: 0 0 2px; font-weight: 700; font-size: 1rem; color: #3b1a5e;">Condiciones del Servicio</p>
+          <p style="margin: 0; font-size: 0.9rem; color: #666; line-height: 1.5;">Conoce los términos que amparan tu mudanza: responsabilidades, límites de cobertura, declaración de valor y más.</p>
+        </div>
+        <a href="terminos.html" id="btn-condiciones-servicio" style="
+          display: inline-flex; align-items: center; gap: 8px;
+          background: linear-gradient(135deg, #5b2c8e, #7a3db8);
+          color: white; font-weight: 600; font-size: 0.9rem;
+          padding: 10px 22px; border-radius: 50px;
+          text-decoration: none;
+          box-shadow: 0 4px 14px rgba(91,44,142,0.3);
+          transition: box-shadow 0.3s, transform 0.2s;
+          white-space: nowrap;
+        "
+        onmouseover="this.style.boxShadow='0 6px 20px rgba(91,44,142,0.45)';this.style.transform='translateY(-1px)'"
+        onmouseout="this.style.boxShadow='0 4px 14px rgba(91,44,142,0.3)';this.style.transform='translateY(0)'">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+            <polyline points="15 3 21 3 21 9"/>
+            <line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
+          Ver condiciones
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       POR QUÉ ELEGIRNOS
+       ============================================================ -->
+  <section class="section section--alt" id="nosotros">
+    <div class="container">
+      <div class="porque__wrapper">
+        <!-- === IMAGEN — Cambia la foto de esta sección aquí === -->
+        <div class="porque__image fade-in-left">
+          <img src="img/camion-amarillo-noche.jpg" alt="Camión de mudanzas MNM de noche con luces encendidas" loading="lazy">
+        </div>
+
+        <div class="porque__content fade-in-right">
+          <span class="section__tag">Confianza y experiencia</span>
+          <h2 class="section__title">¿Por qué elegir Transportes MNM?</h2>
+          <p class="section__subtitle">Somos un equipo de personas honestas y trabajadoras que entiende lo importante que es para ti cada una de tus pertenencias.</p>
+
+          <div class="porque__list">
+            <div class="porque__item">
+              <div class="porque__item-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <span class="porque__item-text">Cuidamos tus recuerdos y pertenencias.</span>
+            </div>
+            <div class="porque__item">
+              <div class="porque__item-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <span class="porque__item-text">Personal honesto y responsable.</span>
+            </div>
+            <div class="porque__item">
+              <div class="porque__item-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <span class="porque__item-text">Camiones adecuados para mudanzas.</span>
+            </div>
+            <div class="porque__item">
+              <div class="porque__item-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <span class="porque__item-text">Atención clara y directa.</span>
+            </div>
+            <div class="porque__item">
+              <div class="porque__item-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <span class="porque__item-text">Precios justos.</span>
+            </div>
+            <div class="porque__item">
+              <div class="porque__item-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <span class="porque__item-text">Servicio pensado para reducir el estrés del cliente.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       COBERTURA / RUTAS
+       ============================================================ -->
+  <section class="section section--alt" id="cobertura">
+    <div class="container">
+      <div class="cobertura__wrapper">
+        <div class="cobertura__content fade-in-left">
+          <span class="section__tag">Cobertura Nacional</span>
+          <h2 class="section__title">Nuestras rutas de carga y mudanzas</h2>
+          <p class="section__subtitle">Conectamos el <strong>Estado de México (origen principal)</strong> con las ciudades más importantes de la República Mexicana. Contamos con rutas frecuentes, unidades monitoreadas y conductores con amplia experiencia en carreteras.</p>
+          
+          <div class="cobertura__regions">
+            <div class="cobertura__region">
+              <h4>Norte y Pacífico</h4>
+              <ul>
+                <li><span>&bull;</span> Tijuana</li>
+                <li><span>&bull;</span> Guadalajara</li>
+                <li><span>&bull;</span> Los Cabos</li>
+                <li><span>&bull;</span> Monterrey (MTY)</li>
+                <li><span>&bull;</span> Piedras Negras</li>
+                <li><span>&bull;</span> Ciudad Juárez</li>
+              </ul>
+            </div>
+            <div class="cobertura__region">
+              <h4>Centro, Sur y Sureste</h4>
+              <ul>
+                <li><span>&bull;</span> Cancún (CUN)</li>
+                <li><span>&bull;</span> Oaxaca</li>
+                <li><span>&bull;</span> Acapulco / Morelia / Puebla</li>
+                <li><span>&bull;</span> Villahermosa</li>
+                <li><span>&bull;</span> Mérida</li>
+                <li><span>&bull;</span> Veracruz</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cobertura__cta-box">
+            <p>¿No ves tu destino en la lista? Hacemos mudanzas compartidas y exclusivas a cualquier rincón del país.</p>
+            <a href="https://wa.me/525565799972?text=Hola%2C%20quiero%20cotizar%20una%20mudanza%20a..." 
+               class="btn btn--primary" target="_blank" rel="noopener" id="btn-cobertura-wa">
+              Consultar mi destino
+            </a>
+          </div>
+        </div>
+
+        <div class="cobertura__image-container fade-in-right">
+          <div class="cobertura__map-frame">
+            <img src="img/rutas-mapa.jpg" alt="Mapa de rutas de cobertura de Transportes MNM en México" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       TIPOS DE MANIOBRAS
+       ============================================================ -->
+  <section class="section" id="maniobras">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="section__tag">Servicios especializados</span>
+        <h2 class="section__title">Tipos de maniobras</h2>
+        <p class="section__subtitle">Conoce cómo protegemos y trasladamos tus objetos de valor, desde el empaque básico hasta maniobras de alta complejidad.</p>
+      </div>
+
+      <div class="maniobras__accordion fade-in">
+        <!-- Maniobra 1: Protección de muebles -->
+        <div class="maniobra-card active" data-maniobra="1">
+          <div class="maniobra-card__image-part" style="background-image: url('img/MNM Empaque Enhanced 2.png');">
+            <div class="maniobra-card__overlay"></div>
+            <h3 class="maniobra-card__title">Protección de muebles</h3>
+          </div>
+          <div class="maniobra-card__text-part">
+            <div class="maniobra-card__text-content">
+              <h3>Protección de muebles</h3>
+              <p>Protección de muebles de tela con playo, colchonetas sobrepuestas a bordo del camión.</p>
+              <a href="https://wa.me/525565799972?text=Hola%2C%20quiero%20cotizar%20una%20mudanza%20con%20protecci%C3%B3n%20de%20muebles." 
+                 class="btn btn--secondary" target="_blank" rel="noopener">
+                Cotizar este servicio
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Maniobra 2: Empaque completo -->
+        <div class="maniobra-card" data-maniobra="2">
+          <div class="maniobra-card__image-part" style="background-image: url('img/empaque_completo.jpg');">
+            <div class="maniobra-card__overlay"></div>
+            <h3 class="maniobra-card__title">Empaque completo</h3>
+          </div>
+          <div class="maniobra-card__text-part">
+            <div class="maniobra-card__text-content">
+              <span class="maniobra-badge maniobra-badge--extra">Con costo extra</span>
+              <h3>Empaque completo</h3>
+              <p>Servicio en el que el personal de mudanza se encarga de empacar todas las pertenencias del cliente utilizando cajas y materiales especializados, garantizando una mayor protección y organización durante el traslado.</p>
+              <a href="https://wa.me/525565799972?text=Hola%2C%20quiero%20cotizar%20una%20mudanza%20con%20empaque%20completo." 
+                 class="btn btn--secondary" target="_blank" rel="noopener">
+                Cotizar este servicio
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Maniobra 3: Voladuras -->
+        <div class="maniobra-card" data-maniobra="3">
+          <div class="maniobra-card__image-part" style="background-image: url('img/voladuras.png');">
+            <div class="maniobra-card__overlay"></div>
+            <h3 class="maniobra-card__title">Voladuras</h3>
+          </div>
+          <div class="maniobra-card__text-part">
+            <div class="maniobra-card__text-content">
+              <span class="maniobra-badge maniobra-badge--extra">Con costo extra</span>
+              <h3>Voladuras</h3>
+              <p>Maniobra utilizada cuando los muebles u objetos no pueden pasar por puertas, pasillos, escaleras o elevadores. Consiste en subir o bajar las piezas mediante cuerdas, poleas o equipo especializado a través de ventanas, balcones o fachadas, siguiendo medidas de seguridad específicas. (Costo extra por tipo de mueble y pisos que se van a volar).</p>
+              <a href="https://wa.me/525565799972?text=Hola%2C%20quiero%20cotizar%20una%20mudanza%20que%20requiere%20voladuras." 
+                 class="btn btn--secondary" target="_blank" rel="noopener">
+                Cotizar este servicio
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       GALERÍA
+       ============================================================ -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="section__tag">Nuestros camiones</span>
+        <h2 class="section__title">Galería</h2>
+        <p class="section__subtitle">Conoce nuestros camiones de mudanza. Equipados y listos para llevar tus pertenencias a cualquier rincón de México.</p>
+      </div>
+
+      <!-- === GALERÍA — Carrusel de fotos === -->
+      <div class="galeria__carousel-container">
+        <button class="carousel-btn carousel-btn--left" id="carousel-btn-prev" aria-label="Imagen anterior">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <div class="galeria__track" id="galeria-track">
+          <div class="galeria__item fade-in" id="galeria-1">
+            <img src="img/camion-rojo-abierto.jpg" alt="Camión rojo de mudanzas Transportes MNM con caja abierta" loading="lazy">
+          </div>
+          <div class="galeria__item fade-in" id="galeria-2">
+            <img src="img/camion-amarillo-noche.jpg" alt="Camión amarillo de mudanzas MNM en servicio nocturno" loading="lazy">
+          </div>
+          <div class="galeria__item fade-in" id="galeria-3">
+            <img src="img/camion-atardecer.jpg" alt="Camión de mudanzas MNM al atardecer" loading="lazy">
+          </div>
+          <div class="galeria__item fade-in" id="galeria-4">
+            <img src="img/camion-rojo.jpg" alt="Camión rojo de mudanzas de Transportes MNM" loading="lazy">
+          </div>
+          <div class="galeria__item fade-in" id="galeria-5">
+            <img src="img/MNM Camion Enhanced 5.png" alt="Camión blanco de Transportes MNM listo para mudanza" loading="lazy">
+          </div>
+          <div class="galeria__item fade-in" id="galeria-6">
+            <img src="img/MNM Camion Enhanced 6.png" alt="Camión de mudanzas Transportes MNM en operación" loading="lazy">
+          </div>
+          <div class="galeria__item fade-in" id="galeria-7">
+            <img src="img/MNM Camion Enhanced 7.png" alt="Servicio de mudanzas con camiones Transportes MNM" loading="lazy">
+          </div>
+          <div class="galeria__item fade-in" id="galeria-8">
+            <img src="img/MNM Empaque Enhanced 1.png" alt="Embalaje y protección profesional de pertenencias" loading="lazy">
+          </div>
+          <div class="galeria__item fade-in" id="galeria-9">
+            <img src="img/MNM Empaque Enhanced 2.png" alt="Cuidado en el empaque y embalaje de muebles" loading="lazy">
+          </div>
+          <div class="galeria__item fade-in" id="galeria-10">
+            <img src="img/MNM Empaque Enhanced 3.png" alt="Proceso de empaque cuidadoso para mudanzas" loading="lazy">
+          </div>
+          <div class="galeria__item fade-in" id="galeria-11">
+            <img src="img/MNM Empaque Enhanced 4.png" alt="Materiales de embalaje y protección de alta calidad" loading="lazy">
+          </div>
+        </div>
+
+        <button class="carousel-btn carousel-btn--right" id="carousel-btn-next" aria-label="Imagen siguiente">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada de imagen">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Cerrar">&times;</button>
+    <img src="" alt="Imagen ampliada" id="lightbox-img">
+  </div>
+
+
+  <!-- ============================================================
+       PROCESO
+       ============================================================ -->
+  <section class="section section--alt" id="proceso">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="section__tag">Paso a paso</span>
+        <h2 class="section__title">Así hacemos tu mudanza más fácil</h2>
+        <p class="section__subtitle">Un proceso sencillo y transparente para que no te preocupes por nada.</p>
+      </div>
+
+      <div class="proceso__timeline">
+        <div class="proceso__step fade-in" id="paso-1">
+          <div class="proceso__step-number">1</div>
+          <h3 class="proceso__step-title">Nos contactas</h3>
+          <p class="proceso__step-text">Escríbenos por WhatsApp. Te respondemos rápido y sin rodeos.</p>
+        </div>
+
+        <div class="proceso__step fade-in" id="paso-2">
+          <div class="proceso__step-number">2</div>
+          <h3 class="proceso__step-title">Nos cuentas tu mudanza</h3>
+          <p class="proceso__step-text">Dinos qué necesitas mover, desde dónde y hacia dónde.</p>
+        </div>
+
+        <div class="proceso__step fade-in" id="paso-3">
+          <div class="proceso__step-number">3</div>
+          <h3 class="proceso__step-title">Cotización clara</h3>
+          <p class="proceso__step-text">Te damos un precio justo y transparente, sin sorpresas.</p>
+        </div>
+
+        <div class="proceso__step fade-in" id="paso-4">
+          <div class="proceso__step-number">4</div>
+          <h3 class="proceso__step-title">Programamos la fecha</h3>
+          <p class="proceso__step-text">Elegimos el día y hora que mejor te funcione.</p>
+        </div>
+
+        <div class="proceso__step fade-in" id="paso-5">
+          <div class="proceso__step-number">5</div>
+          <h3 class="proceso__step-title">Carga y transporte</h3>
+          <p class="proceso__step-text">Llegamos a tu domicilio, embalamos, cargamos y transportamos con cuidado.</p>
+        </div>
+
+        <div class="proceso__step fade-in" id="paso-6">
+          <div class="proceso__step-number">6</div>
+          <h3 class="proceso__step-title">Entrega segura</h3>
+          <p class="proceso__step-text">Descargamos todo en tu nuevo hogar y verificamos que esté en orden.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CTA — Llamado a la acción
+       ============================================================ -->
+  <section class="cta" id="contacto">
+    <div class="container">
+      <div class="cta__content fade-in">
+        <h2 class="cta__title">¿Listo para mudarte sin estrés?</h2>
+        <p class="cta__subtitle">Escríbenos por WhatsApp y recibe atención directa para cotizar tu mudanza. Sin compromisos, sin complicaciones.</p>
+        <!-- === WHATSAPP — Enlace CTA === -->
+        <a href="https://wa.me/525565799972?text=Hola%2C%20quiero%20cotizar%20una%20mudanza%20con%20Transportes%20MNM." 
+           class="btn btn--whatsapp btn--large" target="_blank" rel="noopener" id="btn-cta-wa">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Cotizar por WhatsApp
+        </a>
+        <p class="cta__secondary-contact">O envíanos un correo a: <a href="mailto:mnmudanzas1987@gmail.com">mnmudanzas1987@gmail.com</a></p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__brand">
+          <!-- === LOGO — Logo completo === -->
+          <img src="img/logo-mnm-completo.jpg" alt="Logotipo Transportes MNM">
+          <p>Transportes MNM — Mudanzas Nacionales México. Cuidamos tus pertenencias como si fueran nuestras. Servicio de mudanzas honesto, confiable y con precio justo.</p>
+        </div>
+
+        <div class="footer__column">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#cobertura">Rutas</a></li>
+            <li><a href="#maniobras">Maniobras</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4>Contacto</h4>
+          <div class="footer__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            <!-- === WHATSAPP — Número de contacto === -->
+            <a href="https://wa.me/525565799972" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.7);">+52 55 6579 9972</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <a href="mailto:mnmudanzas1987@gmail.com" style="color: rgba(255,255,255,0.7);">mnmudanzas1987@gmail.com</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+            </svg>
+            <span>Cobertura nacional</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Transportes MNM — Mudanzas Nacionales México. Todos los derechos reservados. | <a href="terminos.html" style="text-decoration: underline; opacity: 0.8; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Términos y Condiciones</a></p>
+        <p class="footer__motto">"Tu tranquilidad es nuestra prioridad."</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       BOTÓN FLOTANTE DE WHATSAPP
+       ============================================================ -->
+  <!-- === WHATSAPP — Cambia el número si es necesario === -->
+  <a href="https://wa.me/525565799972?text=Hola%2C%20quiero%20cotizar%20una%20mudanza%20con%20Transportes%20MNM." 
+     class="whatsapp-float" target="_blank" rel="noopener" id="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-float__tooltip">¿Necesitas cotizar tu mudanza?</span>
+  </a>
+
+
+  <!-- ============================================================
+       JAVASCRIPT
+       ============================================================ -->
+  <script src="script.js"></script>
+</body>
+</html>
