@@ -204,17 +204,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   // -----------------------------------------------
-  // 7. Botón flotante de WhatsApp — mostrar después de scroll
+  // 7. Botones flotantes de WhatsApp y Facebook — mostrar después de scroll
   // -----------------------------------------------
   const whatsappFloat = document.getElementById('whatsapp-float');
+  const facebookFloat = document.getElementById('facebook-float');
 
-  const handleWhatsAppVisibility = () => {
+  const handleFloatVisibility = () => {
     if (window.scrollY > 400) {
       whatsappFloat.style.opacity = '1';
       whatsappFloat.style.pointerEvents = 'all';
+      if (facebookFloat) {
+        facebookFloat.style.opacity = '1';
+        facebookFloat.style.pointerEvents = 'all';
+      }
     } else {
       whatsappFloat.style.opacity = '0';
       whatsappFloat.style.pointerEvents = 'none';
+      if (facebookFloat) {
+        facebookFloat.style.opacity = '0';
+        facebookFloat.style.pointerEvents = 'none';
+      }
     }
   };
 
@@ -223,7 +232,13 @@ document.addEventListener('DOMContentLoaded', () => {
   whatsappFloat.style.pointerEvents = 'none';
   whatsappFloat.style.transition = 'opacity 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease';
 
-  window.addEventListener('scroll', handleWhatsAppVisibility, { passive: true });
+  if (facebookFloat) {
+    facebookFloat.style.opacity = '0';
+    facebookFloat.style.pointerEvents = 'none';
+    facebookFloat.style.transition = 'opacity 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease';
+  }
+
+  window.addEventListener('scroll', handleFloatVisibility, { passive: true });
 
 
   // -----------------------------------------------
